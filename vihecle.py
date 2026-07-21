@@ -8,4 +8,5 @@ class vehicle:
     def strart_engine(self):
         return f"the engine of the {self.year} {self.make} {self.model} is starting"
         
-        
+    def stop_engine(self):
+        return f"the engine of the {self.year} {self.make} {self.model} is stopped"
