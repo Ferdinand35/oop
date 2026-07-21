@@ -10,3 +10,6 @@ class vehicle:
         
     def stop_engine(self):
         return f"the engine of the {self.year} {self.make} {self.model} is stopped"
+    
+    def __str__(self):
+        return f"{self.year} {self.make} {self.model}"
