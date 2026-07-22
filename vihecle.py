@@ -15,9 +15,6 @@ class vehicle:
         return f"{self.year} {self.make} {self.model}"
     
     def __repr__(self):
-        return f"vehicle(check='{self.make}',model='{self.model}',year={self.year})"
-     
-    
+        return f"vehicle(check='{self.make}',model='{self.model}',year={self.year})"    
         return f"{self.year} {self.make} {self.model}"
-    def __main__(self):
-        return f"{self.year}"
+   
