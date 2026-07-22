@@ -16,3 +16,4 @@ class vehicle:
     
     def __repr__(self):
         return f"vehicle(check='{self.make}',model='{self.model}',year={self.year})"
+        return f"{self.year} {self.make} {self.model}"
